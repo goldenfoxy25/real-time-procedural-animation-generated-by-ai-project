@@ -1,1 +1,0 @@
-# real-time-procedural-animation-generated-by-ai-project
