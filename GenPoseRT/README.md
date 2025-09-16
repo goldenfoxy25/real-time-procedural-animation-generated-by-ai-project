@@ -38,7 +38,7 @@ for i, bone in enumerate(bone_names):
 
 ### Tips
 
-- go to `.../GenPoseRT/script` and run `run_pipline.ps1` it's a intaler/launcher and it's automaticali instal the dependens
+- go to `.../GenPoseRT/script` and run `run_pipline.ps1` it's a intaller/launcher and it's automaticali instal the dependens
 - The model can be enriched with structured context (text, emotion, intention...).
 - For embedded inference: export to ONNX or TorchScript if needed.
 - Adjust the next_pose() call frequency depending on your target FPS (30–60Hz recommended).
@@ -68,4 +68,5 @@ train_ds = PackedDataset("data/converted_packed")
 - The Blender script must be launched inside Blender (see scripts/blender/convert_fbx_to_npy.py).
 - Adapt the bone mapping if your rig differs too much.
 - The expected .npy files are float32 matrices of shape (T, pose_dim).
+
 
