@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "python",
+      "request": "launch",
+      "name": "Lancer et déboguer le modèle",
+      "program": "${workspaceFolder}/src/model.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "python",
+      "request": "launch",
+      "name": "Lancer et déboguer le loader",
+      "program": "${workspaceFolder}/src/data_loader.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "python",
+      "request": "launch",
+      "name": "Lancer et déboguer la préparation",
+      "program": "${workspaceFolder}/scripts/prepare_packed.py",
+      "console": "integratedTerminal"
+    }
+    ,
+    {
+      "type": "PowerShell",
+      "request": "launch",
+      "name": "Run Pipeline",
+      "script": "${workspaceFolder}/scripts/run_pipeline.ps1",
+      "console": "integratedTerminal"
+    }
+  ]
+}
